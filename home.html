@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stige.css">
+  <link rel="icon" href="images.jpg">
+  <title>Stige Mini Project</title>
+  <style>
+  #travel1{
+position: absolute;
+left: 5px;
+top: 0px;
+object-fit:cover ;
+width: 99%;
+height: 99%;
+color:rgb(250, 240, 240);
+font-size: 30px;
+align-items: center;
+background-color: rgba(19, 11, 11, 0.8);
+
+  }
+  </style>
+</head>
+<body>
+   <!-- Video Source -->
+  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+  <section class="showcase">
+    <header>
+      <div style="margin-left: 1090px;" class="toggle"></div>
+    </header>
+    <video src="Travel.mp4" muted loop autoplay></video>
+    <div class="overlay"></div> 
+    <div id="travel1">
+    <h1 style="margin-left:20px">ALL INFORMATION AVAILABLE RELATED TO TRAVEL</h1> 
+    <h3 style="margin-left:180px">CLICK ON IMAGE FOR MORE INFORMATION </h3>
+    <a href="https://www.yatra.com/international-tourism/country-travel-guide">
+    <img style="width:99.9%; height: 500px; opacity:99%;" id="img2" src="img2.jpg" alt=""></a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="home.html">News</a></li>
+      <li><a href="home.html">Destination</a></li>
+      <li><a href="home.html">Blog</a></li>
+      <li><a href="home.html">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
+
+
+<!--*****************************************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images.jpg">
+    <title>News</title>
+<style>
+h1{
+position: absolute;
+left: 20px;
+top: 0;
+color:red;
+font-size: 50px;
+align-items: center;
+background-color: rgba(19, 11, 11, 0.8);
+}
+h3{
+word-spacing:2;
+position: absolute;
+left: 180px;
+top: 60px;
+color:red;
+font-size: 50px;
+align-items: center;
+background-color: rgba(10, 2, 2, 0.8);
+}
+#img1{
+margin-left: 900px;
+position: absolute;
+left: 20px;
+top: 100px;
+width: 400px;
+height: 200px;
+border-radius: 50%;
+align-items: center;background-color: rgba(3, 17, 17, 0.8); 
+}
+#img2{
+margin-bottom: 0px;
+position: absolute;
+left: 20px;
+top: 200px;
+width: 94%;
+height: 500px;
+align-items: center;background-color: rgba(255,255,255, 0.8); 
+}
+body{
+    background-color:rgba(218, 130, 16, 0.8);
+}
+video
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+</style>
+</head>
+<body>
+
+<video src="Travel.mp4" muted loop autoplay></video>
+ <h1>ALL INFORMATION AVAILABLE RELATED TO TRAVEL</h1> 
+ <h3>click on image for more information </h3>
+ <a href="https://www.yatra.com/international-tourism/country-travel-guide">
+<img id="img2" src="img2.jpg" alt=""></a>
+</body>
+    
+</html>--->
